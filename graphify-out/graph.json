@@ -1,0 +1,3053 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "iimjobs",
+      "label": "iimjobs.py",
+      "file_type": "code",
+      "source_file": "iimjobs.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "iimjobs_jina",
+      "label": "jina()",
+      "file_type": "code",
+      "source_file": "iimjobs.py",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "iimjobs_parse",
+      "label": "parse()",
+      "file_type": "code",
+      "source_file": "iimjobs.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "iimjobs_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "iimjobs.py",
+      "source_location": "L57",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "iimjobs_rationale_2",
+      "label": "Scrape iimjobs category pages (JS SPA) via Jina Reader, parse listings, score…",
+      "file_type": "rationale",
+      "source_file": "iimjobs.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "iimjobs_rationale_32",
+      "label": "Each listing occupies one line; labels contain nested ] from images, so split…",
+      "file_type": "rationale",
+      "source_file": "iimjobs.py",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search",
+      "label": "job_search.py",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_load_cv",
+      "label": "load_cv()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_score",
+      "label": "score()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L43",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_norm_url",
+      "label": "norm_url()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L51",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_exa_search",
+      "label": "exa_search()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L67",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_adzuna_creds",
+      "label": "adzuna_creds()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L102",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_adzuna_search",
+      "label": "adzuna_search()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L109",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_mcp",
+      "label": "_mcp()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L150",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_linkedin_search",
+      "label": "linkedin_search()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L158",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "job_search.py",
+      "source_location": "L209",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_rationale_2",
+      "label": "Unified job search: Exa (semantic web) + Adzuna (job-board API), scored against…",
+      "file_type": "rationale",
+      "source_file": "job_search.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "job_search_rationale_159",
+      "label": "Search, title-filter, then fetch full JD only for the most plausible hits.",
+      "file_type": "rationale",
+      "source_file": "job_search.py",
+      "source_location": "L159",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd",
+      "label": "Floaid_Fundraising_Plan_UmashankarTD.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "label": "**Funding Floaid**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_umashankar_triplicane_dwarakanathan",
+      "label": "**Umashankar Triplicane Dwarakanathan**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "label": "**Four different risks. Four different kinds of money.**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_glp_animal_studies_first_in_human",
+      "label": "**GLP animal studies + first-in-human**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_cdsco_class_d_licence_clinical_pathway",
+      "label": "**CDSCO Class D licence + clinical pathway**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_gmp_facility_sipcot_oragadam",
+      "label": "**GMP facility, SIPCOT Oragadam**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_commercial_launch_floex_3_0",
+      "label": "**Commercial launch, Floex 3.0**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "label": "**Six problems inside this job description**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_capital_classes",
+      "label": "**Two products, two capital classes**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L63",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_half_the_international_list_is_a_dead_end",
+      "label": "**Half the international list is a dead end**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_market_number_does_not_exist_yet",
+      "label": "**The market number does not exist yet**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L71",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_2",
+      "label": "**2**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_4",
+      "label": "**4**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L77",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_non_dilutive_calendar_has_already_turned",
+      "label": "**The non-dilutive calendar has already turned**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L81",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_entity_may_not_match_the_incentives",
+      "label": "**The entity may not match the incentives**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_csr_to_your_own_foundation_has_a_trap",
+      "label": "**CSR to your own foundation has a trap**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_india_buys_its_advanced_cardiac_hardware_that_is_the_investment_case",
+      "label": "**India buys its advanced cardiac hardware. That is the investment case.**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L97",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_us_50_bn",
+      "label": "**US$50 bn**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L101",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_75_80",
+      "label": "**75–80%**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L105",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_24",
+      "label": "**24%**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L109",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "label": "**₹3,420 cr**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L113",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_what_the_import_table_actually_says",
+      "label": "**What the import table actually says**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L117",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_honest_version",
+      "label": "**The honest version**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L119",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_pvad_category_is_the_fastest_growing_line_inside_j_j_medtech",
+      "label": "**The pVAD category is the fastest-growing line inside J&J MedTech**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L133",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_8_93_bn",
+      "label": "**$8.93 bn**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L137",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_1_bn",
+      "label": "**> $1 bn**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L139",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_indian_arithmetic_that_matters",
+      "label": "**The Indian arithmetic that matters**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L145",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_16_6_bn",
+      "label": "**$16.6 bn**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L156",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_market_creati_on_argument",
+      "label": "**The market-creati on argument**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L160",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_objecti_on_i_would_prepare_for_fi_rst",
+      "label": "**The objecti on I would prepare for fi rst**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L162",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_is_the_sober_half_and_the_half_that_can_carry_debt",
+      "label": "**Floex 3.0 is the sober half — and the half that can carry debt**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L174",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_who_owns_the_category_today",
+      "label": "**Who owns the category today**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L178",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_import_substitution_is_the_policy_hook_and_it_is_worth_real_money",
+      "label": "**Import substitution is the policy hook — and it is worth real money**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L193",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_cdsco_risk_classes_two_capital_tracks",
+      "label": "**Two products, two CDSCO risk classes, two capital tracks**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L201",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_flocath_percutaneous_vad",
+      "label": "**FLOCATH  ·  percutaneous VAD**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L205",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_heart_lung_machine",
+      "label": "**Floex 3.0  ·  heart-lung machine**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L207",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_why_this_matt_ers_to_a_funder",
+      "label": "**Why this matt ers to a funder**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L222",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_one_architecture_sequenced_so_the_cheapest_money_is_raised_first",
+      "label": "**One architecture, sequenced so the cheapest money is raised first**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L230",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_how_i_would_design_the_series_a_process",
+      "label": "**How I would design the Series A process**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L257",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "label": "**Four waves — warm and local first, strategics last**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L273",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_warm_local_actively_deploying",
+      "label": "**Warm, local, actively deploying**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L279",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_iitm_unicorn_frontier_fund_i",
+      "label": "**IITM Unicorn Frontier Fund I**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L281",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_wave_2",
+      "label": "**WAVE 2**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L285",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_dedicated_healthcare_capital",
+      "label": "**Dedicated healthcare capital**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L287",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_kotak_life_sciences_fund",
+      "label": "**Kotak Life Sciences Fund**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L289",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_wave_3",
+      "label": "**WAVE 3**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L293",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_strategics_validation_and_channel",
+      "label": "**Strategics — validation and channel**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L295",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_terumo_ventures",
+      "label": "**Terumo Ventures**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L297",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_wave_4",
+      "label": "**WAVE 4**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L301",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_series_b_relationships_to_seed_now",
+      "label": "**Series B relationships to seed now**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L303",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_somerset_indus_quadria",
+      "label": "**Somerset Indus  ·  Quadria**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L305",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_healthquad_quadria",
+      "label": "**HealthQuad (Quadria)**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L309",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_inflexor_ventures",
+      "label": "**Inflexor Ventures**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L311",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_endiya_partners",
+      "label": "**Endiya Partners**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L315",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_360_one_asset",
+      "label": "**360 ONE Asset**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L321",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_trivitron_meril_smt",
+      "label": "**Trivitron  ·  Meril  ·  SMT**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L325",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_siemens_healthineers",
+      "label": "**Siemens Healthineers**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L329",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_f_prime_eight_roads",
+      "label": "**F-Prime  ·  Eight Roads**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L333",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_leapfrog_bii_ifc",
+      "label": "**LeapFrog  ·  BII  ·  IFC**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L337",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_pi_ventures_anicut_chennai",
+      "label": "**pi Ventures  ·  Anicut (Chennai)**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L341",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_speciale_invest",
+      "label": "**Speciale Invest**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L343",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_getinge_livanova",
+      "label": "**Getinge  ·  LivaNova**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L349",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_anrf_rdi_fund_via_birac",
+      "label": "**ANRF RDI Fund via BIRAC**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L353",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_what_an_indian_medtech_series_a_actually_looks_like_in_2026",
+      "label": "**What an Indian MedTech Series A actually looks like in 2026**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L361",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_realistic_parameters",
+      "label": "**Realistic parameters**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L370",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "label": "**Three things I would fix before the deck goes out**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L396",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_entity_does_not_match_the_incentives",
+      "label": "**The entity does not match the incentives**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L402",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_market_number_does_not_exist_yet_410",
+      "label": "**The market number does not exist yet**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L410",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_3",
+      "label": "**3**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L416",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_public_story_and_the_pitch_do_not_agree",
+      "label": "**The public story and the pitch do not agree**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L418",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_indian_ladder_ranked_by_what_it_is_actually_worth_to_floaid",
+      "label": "**The Indian ladder, ranked by what it is actually worth to Floaid**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L428",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_file_and_when",
+      "label": "**What I would file, and when**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L451",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_sep_nov_2026",
+      "label": "**Sep – Nov 2026**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L455",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_dec_2026_feb_2027",
+      "label": "**Dec 2026 – Feb 2027**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L459",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_mar_aug_2027",
+      "label": "**Mar – Aug 2027**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L465",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "label": "**Honest triage — most of this list is not available to Floaid**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L475",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_closed_to_floaid",
+      "label": "**CLOSED TO FLOAID**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L479",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_genui_nely_available",
+      "label": "**GENUI NELY AVAILABLE**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L481",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_wellcome_trust",
+      "label": "**Wellcome Trust**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L483",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_australian_r_d_tax_incentive",
+      "label": "**Australian R&D Tax Incentive**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L487",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_gates_grand_challenges",
+      "label": "**Gates / Grand Challenges**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L491",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_horizon_europe_cluster_1",
+      "label": "**Horizon Europe Cluster 1**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L495",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_nih_nibib",
+      "label": "**NIH / NIBIB**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L499",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_bilateral_usistef_aisrf_igstc",
+      "label": "**Bilateral: USISTEF, AISRF, IGSTC**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L503",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_eic_accelerator",
+      "label": "**EIC Accelerator**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L507",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_wellcome_leap",
+      "label": "**Wellcome Leap**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L511",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_most_actionable_international_route_and_it_is_a_tax_instrument",
+      "label": "**The most actionable international route — and it is a tax instrument**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L521",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_four_conditions",
+      "label": "**The four conditions**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L525",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "label": "**43.5%**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L529",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_structure",
+      "label": "**The structure**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L533",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_trap",
+      "label": "**The trap**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L541",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_also_worth_pursuing",
+      "label": "**Also worth pursuing**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L547",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_what_it_is_worth",
+      "label": "**What it is worth**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L553",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "label": "**The JD cites the wrong clause — and the right structure has a clock**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L565",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_clause_ix_trap",
+      "label": "**The clause (ix) trap**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L569",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_asymmetry_that_works_in_your_favour",
+      "label": "**The asymmetry that works in your favour**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L571",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_setup_checklist",
+      "label": "**The setup checklist**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L581",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_2026_change_nobody_has_priced_in",
+      "label": "**The 2026 change nobody has priced in**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L583",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "label": "**Financing Oragadam without dilution**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L605",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_venture_debt_not_yet_and_approaching_early_burns_the_relationship",
+      "label": "**Venture debt: not yet, and approaching early burns the relationship**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L609",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_stack_that_actually_funds_the_plant",
+      "label": "**THE STACK THAT ACTUALLY FUNDS THE PLANT**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L613",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_sidbi_sthapan",
+      "label": "**SIDBI STHAPAN**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L615",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_mcgs_msme_guarantee",
+      "label": "**MCGS-MSME guarantee**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L621",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_who_to_talk_to_and_when",
+      "label": "**Who to talk to, and when**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L625",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_smdi_marginal_investment",
+      "label": "**SMDI Marginal Investment**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L636",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_tn_capital_subsidy_stack",
+      "label": "**TN capital subsidy stack**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L640",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_sipcot_oragadam",
+      "label": "**SIPCOT Oragadam**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L644",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "label": "**First 90 days**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L652",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_establish_the_base",
+      "label": "**Establish the base**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L658",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_build_the_machine",
+      "label": "**Build the machine**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L662",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_days_61_90",
+      "label": "**Days 61–90**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L664",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_go_to_market",
+      "label": "**Go to market**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L666",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_twelve_month_scorecard_against_your_own_success_criteria",
+      "label": "**The twelve-month scorecard, against your own success criteria**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L700",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "label": "**The operating system behind the numbers**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L717",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_pipeline",
+      "label": "**Pipeline**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L721",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_calendar",
+      "label": "**Calendar**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L731",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_data_room",
+      "label": "**Data room**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L741",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_compliance",
+      "label": "**Compliance**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L751",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_why_me",
+      "label": "**Why me**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L763",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_where_i_would_need_help",
+      "label": "**Where I would need help**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L769",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_written_applications_that_get_read",
+      "label": "**Written applications that get read**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L773",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "label": "**What I would want agreed in the first week**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L799",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_board_s_reference_case",
+      "label": "**The board’s reference case**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L805",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_entity_and_domicile",
+      "label": "**Entity and domicile**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L811",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_the_scope_of_the_oragadam_facility",
+      "label": "**The scope of the Oragadam facility**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L817",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_technical_input_committed",
+      "label": "**Technical input, committed**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L823",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_how_funds_raised_is_defined",
+      "label": "**How \"funds raised\" is defined**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L829",
+      "_origin": "ast"
+    },
+    {
+      "id": "floaid_floaid_fundraising_plan_umashankartd_umashankar_triplicane_dwarakanathan_843",
+      "label": "**Umashankar Triplicane Dwarakanathan**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L843",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "iimjobs",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "urllib_request",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "pathlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "iimjobs_jina",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "iimjobs_parse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs",
+      "target": "iimjobs_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs_main",
+      "target": "iimjobs_jina",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs_main",
+      "target": "iimjobs_parse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs_rationale_2",
+      "target": "iimjobs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "iimjobs_rationale_32",
+      "target": "iimjobs_parse",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "iimjobs.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "subprocess",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "pathlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "urllib_parse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "urllib_request",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_load_cv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_score",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_norm_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_exa_search",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_adzuna_creds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_adzuna_search",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_mcp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_linkedin_search",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search",
+      "target": "job_search_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_linkedin_search",
+      "target": "job_search_mcp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_load_cv",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_exa_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L228",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_adzuna_creds",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_adzuna_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_linkedin_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L241",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_norm_url",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L245",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_main",
+      "target": "job_search_score",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L248",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_rationale_2",
+      "target": "job_search",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "job_search_rationale_159",
+      "target": "job_search_linkedin_search",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "job_search.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_umashankar_triplicane_dwarakanathan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_glp_animal_studies_first_in_human",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_cdsco_class_d_licence_clinical_pathway",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_gmp_facility_sipcot_oragadam",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_different_risks_four_different_kinds_of_money",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_commercial_launch_floex_3_0",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_capital_classes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_half_the_international_list_is_a_dead_end",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_market_number_does_not_exist_yet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_non_dilutive_calendar_has_already_turned",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_entity_may_not_match_the_incentives",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_six_problems_inside_this_job_description",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_csr_to_your_own_foundation_has_a_trap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_india_buys_its_advanced_cardiac_hardware_that_is_the_investment_case",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_us_50_bn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_75_80",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_what_the_import_table_actually_says",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_honest_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_pvad_category_is_the_fastest_growing_line_inside_j_j_medtech",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_pvad_category_is_the_fastest_growing_line_inside_j_j_medtech",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_8_93_bn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_pvad_category_is_the_fastest_growing_line_inside_j_j_medtech",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_1_bn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_1_bn",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_indian_arithmetic_that_matters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_pvad_category_is_the_fastest_growing_line_inside_j_j_medtech",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_16_6_bn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_16_6_bn",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_market_creati_on_argument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_16_6_bn",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_objecti_on_i_would_prepare_for_fi_rst",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_is_the_sober_half_and_the_half_that_can_carry_debt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_is_the_sober_half_and_the_half_that_can_carry_debt",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_who_owns_the_category_today",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_is_the_sober_half_and_the_half_that_can_carry_debt",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_import_substitution_is_the_policy_hook_and_it_is_worth_real_money",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_cdsco_risk_classes_two_capital_tracks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_cdsco_risk_classes_two_capital_tracks",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_flocath_percutaneous_vad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L205",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_cdsco_risk_classes_two_capital_tracks",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_floex_3_0_heart_lung_machine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_two_products_two_cdsco_risk_classes_two_capital_tracks",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_why_this_matt_ers_to_a_funder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_one_architecture_sequenced_so_the_cheapest_money_is_raised_first",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_how_i_would_design_the_series_a_process",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L257",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L273",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_warm_local_actively_deploying",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_iitm_unicorn_frontier_fund_i",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L281",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_wave_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L285",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_dedicated_healthcare_capital",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L287",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_kotak_life_sciences_fund",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L289",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_wave_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L293",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_strategics_validation_and_channel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L295",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_terumo_ventures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L297",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_wave_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L301",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_series_b_relationships_to_seed_now",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L303",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_somerset_indus_quadria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_healthquad_quadria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L309",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_inflexor_ventures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L311",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_endiya_partners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_360_one_asset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L321",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_trivitron_meril_smt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L325",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_siemens_healthineers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L329",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_f_prime_eight_roads",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L333",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_leapfrog_bii_ifc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_pi_ventures_anicut_chennai",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L341",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_speciale_invest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L343",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_getinge_livanova",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L349",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_four_waves_warm_and_local_first_strategics_last",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_anrf_rdi_fund_via_birac",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L353",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_what_an_indian_medtech_series_a_actually_looks_like_in_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L361",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_an_indian_medtech_series_a_actually_looks_like_in_2026",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_realistic_parameters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L370",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L396",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_entity_does_not_match_the_incentives",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L402",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_market_number_does_not_exist_yet_410",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L410",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L416",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_three_things_i_would_fix_before_the_deck_goes_out",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_public_story_and_the_pitch_do_not_agree",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L418",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_indian_ladder_ranked_by_what_it_is_actually_worth_to_floaid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L428",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_file_and_when",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L451",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_file_and_when",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_sep_nov_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L455",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_file_and_when",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_dec_2026_feb_2027",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L459",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_file_and_when",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_mar_aug_2027",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L465",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L475",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_closed_to_floaid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L479",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_genui_nely_available",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L481",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_wellcome_trust",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L483",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_australian_r_d_tax_incentive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L487",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_gates_grand_challenges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L491",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_horizon_europe_cluster_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L495",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_nih_nibib",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L499",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_bilateral_usistef_aisrf_igstc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L503",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_eic_accelerator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L507",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_honest_triage_most_of_this_list_is_not_available_to_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_wellcome_leap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L511",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_3_420_cr",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_most_actionable_international_route_and_it_is_a_tax_instrument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L521",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_most_actionable_international_route_and_it_is_a_tax_instrument",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_four_conditions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L525",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_funding_floaid",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L529",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L533",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_trap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L541",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_also_worth_pursuing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L547",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_what_it_is_worth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L553",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L565",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_clause_ix_trap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L569",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_asymmetry_that_works_in_your_favour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L571",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_setup_checklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L581",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_jd_cites_the_wrong_clause_and_the_right_structure_has_a_clock",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_2026_change_nobody_has_priced_in",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L583",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L605",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_venture_debt_not_yet_and_approaching_early_burns_the_relationship",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L609",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_stack_that_actually_funds_the_plant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L613",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_sidbi_sthapan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L615",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_mcgs_msme_guarantee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L621",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_who_to_talk_to_and_when",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L625",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_smdi_marginal_investment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L636",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_tn_capital_subsidy_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L640",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_financing_oragadam_without_dilution",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_sipcot_oragadam",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L644",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L652",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_establish_the_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L658",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_build_the_machine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L662",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_days_61_90",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L664",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_first_90_days",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_go_to_market",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L666",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_twelve_month_scorecard_against_your_own_success_criteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L700",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L717",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_pipeline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L721",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_calendar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L731",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_data_room",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L741",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_the_operating_system_behind_the_numbers",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_compliance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L751",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_why_me",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L763",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_why_me",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_where_i_would_need_help",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L769",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_why_me",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_written_applications_that_get_read",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L773",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_43_5",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L799",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_board_s_reference_case",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L805",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_entity_and_domicile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L811",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_the_scope_of_the_oragadam_facility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L817",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_technical_input_committed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L823",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_how_funds_raised_is_defined",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L829",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "floaid_floaid_fundraising_plan_umashankartd_what_i_would_want_agreed_in_the_first_week",
+      "target": "floaid_floaid_fundraising_plan_umashankartd_umashankar_triplicane_dwarakanathan_843",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "floaid/Floaid_Fundraising_Plan_UmashankarTD.md",
+      "source_location": "L843",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}
