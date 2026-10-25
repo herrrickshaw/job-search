@@ -33,7 +33,7 @@ VOCAB = ["lng","natural gas","midstream","downstream","upstream","refinery","pet
 "business transformation","negotiation","energy efficiency","electrification","project management"]
 
 JUNK = re.compile(r"(intern(ship)?\b|fresher|trainee|apprentice|werkstudent|praktikum|"
-                  r"software engineer|developer|devops|full.?stack|qa engineer|nurse|teacher)", re.I)
+                  r"software engineer|(?<!business )developer|devops|full.?stack|qa engineer|nurse|teacher)", re.I)
 
 def load_cv():
     if not CV.exists():
