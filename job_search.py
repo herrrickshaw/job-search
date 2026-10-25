@@ -40,11 +40,14 @@ def load_cv():
         print(f"! CV not found at {CV} -- scoring disabled", file=sys.stderr); return ""
     return re.sub(r"\s+", " ", CV.read_text()).lower()
 
+# whole-term match (optional plural "s"), so "excel" is not found in "excellent"
+_TERM = {v: re.compile(r"(?<![a-z0-9])" + re.escape(v) + r"s?(?![a-z0-9])") for v in VOCAB}
+
 def score(text, cv):
     d = re.sub(r"[^a-z0-9&+\- ]", " ", (text or "").lower())
-    pres = [v for v in VOCAB if v in d]
+    pres = [v for v in VOCAB if _TERM[v].search(d)]
     if not pres: return None
-    hit = [v for v in pres if v in cv]
+    hit = [v for v in pres if _TERM[v].search(cv)]
     return {"cov": round(100*len(hit)/len(pres)), "n": len(pres),
             "miss": [v for v in pres if v not in cv][:10]}
 
