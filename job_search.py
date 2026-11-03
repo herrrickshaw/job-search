@@ -250,12 +250,16 @@ def main():
         r.update(s); r.pop("text",None); byurl[k]=r; rows.append(r)
     rows.sort(key=lambda r: -(r["cov"] * (r["n"]**0.5)))
 
-    (OUTDIR/"results.json").write_text(json.dumps(rows, indent=1))
+    # One file per source, written only if that source returned anything -- a failed
+    # source (no keys, server down) must not wipe the previous run's results.
+    for s in sorted({r["src"] for r in raw}):
+        (OUTDIR/f"results_{s}.json").write_text(
+            json.dumps([r for r in rows if r["src"] == s], indent=1))
     if not a.no_dedupe:
         CACHE.write_text(json.dumps(sorted(seen | set(byurl))))
     src = {}
     for r in rows: src[r["src"]] = src.get(r["src"],0)+1
-    print(f"\n{len(rows)} new matches >= {a.min}%  {src}  -> {OUTDIR/'results.json'}\n")
+    print(f"\n{len(rows)} new matches >= {a.min}%  {src}  -> {OUTDIR}/results_<source>.json\n")
     for r in rows[:30]:
         sal = ""
         if r.get("salary_min") and r.get("salary_max"):
