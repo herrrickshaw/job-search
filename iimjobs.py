@@ -73,7 +73,7 @@ def main():
         r["n"]=len(pres)
         r["fit"]= bool(r["yrs"]) and r["yrs"][0] <= 12 and r["yrs"][1] >= 8   # ~10 yrs band
     rows.sort(key=lambda r:(-(r["fit"]), -(r["cov"]*(r["n"]**0.5))))
-    pathlib.Path("iimjobs_results.json").write_text(json.dumps(rows,indent=1))
+    pathlib.Path("results_iimjobs.json").write_text(json.dumps(rows,indent=1))
     fit=[r for r in rows if r["fit"]]
     print(f"\n{len(rows)} unique listings | {len(fit)} in your ~10-yr band\n")
     for r in fit[:28]:
