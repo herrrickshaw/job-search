@@ -80,4 +80,5 @@ def main():
         y=f'{r["yrs"][0]}-{r["yrs"][1]}y'
         print(f'{r["cov"]:>3}% {r["n"]:>2}kw {y:<7} {r["posted"] or "?":<14} {r["title"][:64]}')
         print(f'            {r["location"]}  ·  {r["url"]}')
-main()
+if __name__ == "__main__":
+    main()
