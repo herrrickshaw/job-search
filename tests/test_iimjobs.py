@@ -211,3 +211,15 @@ def test_report_shows_at_most_28_fit_listings(tmp_path, monkeypatch, capsys):
     out = capsys.readouterr().out
     assert "40 unique listings | 40 in your ~10-yr band" in out
     assert out.count("  ·  https://") == 28
+
+
+def test_label_length_floor_is_fifteen_characters(tmp_path, monkeypatch):
+    ns, _ = run(tmp_path, monkeypatch, "")
+    keep = listing("A" * 15, "https://www.iimjobs.com/j/fifteen-1")
+    drop = listing("A" * 14, "https://www.iimjobs.com/j/fourteen-2")
+    assert [r["url"] for r in ns["parse"](keep + "\n" + drop)] == ["https://www.iimjobs.com/j/fifteen-1"]
+
+
+def test_results_file_is_indented_by_one_space(tmp_path, monkeypatch):
+    ns, work = run(tmp_path, monkeypatch, JOB1, cv="lng")
+    assert (work / "results_iimjobs.json").read_text().startswith('[\n {\n  "title"')

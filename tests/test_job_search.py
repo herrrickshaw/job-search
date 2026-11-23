@@ -54,7 +54,7 @@ def test_norm_url_uppercase_scheme_is_normalised(js):
 @pytest.mark.parametrize("title,junk", [
     ("Summer Internship", True), ("Intern", True), ("International Business Manager", False),
     ("Fresher program", True), ("Software Engineer II", True), ("Full-Stack dev", True), ("Fullstack role", True),
-    ("Head of LNG", False), ("Werkstudent Energie", True), ("Senior Nurse", True), ("DevOps lead", True),
+    ("Head of LNG", False), ("Backend Developer", True), ("Werkstudent Energie", True), ("Senior Nurse", True), ("DevOps lead", True),
 ])
 def test_junk_regex(js, title, junk):
     assert bool(js.JUNK.search(title)) is junk
@@ -408,3 +408,47 @@ def test_main_survives_a_result_without_title(js, cv, monkeypatch, capsys):
     monkeypatch.setattr(js, "adzuna_search", lambda *a: [row("adzuna", "https://b.com/1", None, "lng solar")])
     run_main(js, monkeypatch, "--source", "adzuna", "--no-dedupe")
     assert "1 new matches" in capsys.readouterr().out
+
+
+def test_linkedin_field_length_caps_and_month_age(js, monkeypatch, no_sleep):
+    blob = ("C" * 120) + "\n\n" + ("Gas Lead " + "T" * 200) + "\n\nPune \u00b7 2 months ago \u00b7 x"
+    li_stub(js, monkeypatch, {"gas k": {"job_ids": ["1"]}}, {"1": {"sections": {"job_posting": blob}}})
+    r = js.linkedin_search([("gas k", "India")], "past_week", 1, verbose=False)[0]
+    assert len(r["company"]) == 80 and len(r["title"]) == 150 and r["posted"] == "2 months ago"
+
+
+def test_main_default_days_and_per_query(js, cv, monkeypatch):
+    seen = {}
+    monkeypatch.setattr(js, "exa_search", lambda q, n: (seen.update(n=n), [])[1])
+    monkeypatch.setattr(js, "adzuna_creds", lambda: ("i", "k"))
+    monkeypatch.setattr(js, "adzuna_search", lambda cs, days, i, k: (seen.update(days=days, cs=cs), [])[1])
+    run_main(js, monkeypatch)
+    assert seen["n"] == 8 and seen["days"] == 3 and seen["cs"] == list(js.COUNTRIES)
+
+
+def test_main_orders_by_coverage_times_sqrt_keywords(js, home, monkeypatch, capsys):
+    (home / "Downloads/CV_Umashankar_Master_2026-08-26.md").write_text("lng solar wind oil gas")
+    raw = [row("exa", "https://a.com/1", "Narrow but perfect", "lng"),                                # 100% x sqrt(1) = 100
+           row("exa", "https://a.com/2", "Broad and strong", "lng solar wind oil gas ammonia")]       # 83% x sqrt(6) = 204
+    monkeypatch.setattr(js, "exa_search", lambda q, n: raw)
+    run_main(js, monkeypatch, "--source", "exa", "--no-dedupe")
+    res = json.loads((js.OUTDIR / "results_exa.json").read_text())
+    assert [r["title"] for r in res] == ["Broad and strong", "Narrow but perfect"]
+
+
+def test_main_prints_at_most_30_rows(js, cv, monkeypatch, capsys):
+    raw = [row("exa", f"https://a.com/{i}", f"Role {i}", "lng solar") for i in range(35)]
+    monkeypatch.setattr(js, "exa_search", lambda q, n: raw)
+    run_main(js, monkeypatch, "--source", "exa", "--no-dedupe")
+    out = capsys.readouterr().out
+    assert "35 new matches" in out and out.count("            https://a.com/") == 30
+
+
+def test_main_salary_shown_only_when_both_bounds_exist(js, cv, monkeypatch, capsys):
+    raw = [row("adzuna", "https://b.com/1", "Only min", "lng solar", salary_min=5000, salary_max=None),
+           row("adzuna", "https://b.com/2", "Both", "lng solar", salary_min=5000, salary_max=9000)]
+    monkeypatch.setattr(js, "adzuna_creds", lambda: ("i", "k"))
+    monkeypatch.setattr(js, "adzuna_search", lambda *a: raw)
+    run_main(js, monkeypatch, "--source", "adzuna", "--no-dedupe")
+    out = capsys.readouterr().out
+    assert "Both  [5,000-9,000]" in out and "Only min\n" in out + "\n" and "Only min  [" not in out
